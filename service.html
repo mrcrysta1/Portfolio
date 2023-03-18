@@ -5,55 +5,109 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Service Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <meta name="description" content="my portfolio website to showcase the work
+      I have done so far, the services I provide and all my professionals
+      life.">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="image/favicon.png" image/x-icon ">
+    <link rel=" stylesheet" href="swiper-bundle.min.css" />
+    <!-- The Domain name is new crystal web.com -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href="aos/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" />
+    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        /*------ Style 1 ------*/
+        #pick_1 {
+            width: 50px;
+            height: 40px;
+            border: none;
+            cursor: pointer;
+            margin: 2px;
+        }
+
+        #pick_1::-webkit-color-swatch {
+            border-radius: 5px;
+            border: none;
+        }
+
+        #pick_1::-moz-color-swatch {
+            border-radius: 5px;
+            border: none;
+        }
+
+        /* ------------------------------------------------- */
+        #pick_2 {
+            width: 50px;
+            height: 40px;
+            border: none;
+            cursor: pointer;
+            margin: 2px;
+        }
+
+        #pick_2::-webkit-color-swatch {
+            border-radius: 5px;
+            border: none;
+        }
+
+        #pick_2::-moz-color-swatch {
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
 </head>
 
 <body>
     <header class="header">
         <img src="image/logo2.png" alt="" class="logo" />
+        <input type="color" value="#0a419b" name="color-1" id="pick_1">
+        <input type="color" value="#27afc7" name="color-2" id="pick_2">
         <nav class="navbar">
-            <ul class="navbar-lists" style="float: right;margin: 3rem;">
+            <ul class="navbar-lists" style="float: right; margin: 3rem;
+            position: relative;
+            bottom: 3rem;
+            left: 38rem;
+            z-index: 8;">
                 <li>
-                    <a class="navbar-link home-link" href="index.html" id="">Home</a>
+                    <a class=" navbar-link home-link " href="index.html " id=" ">Home</a>
                 </li>
                 <li>
-                    <a class="navbar-link about-link" href="about.html">About</a>
+                    <a class="navbar-link about-link " href="about.html ">About</a>
                 </li>
                 <li>
-                    <a class="navbar-link service-link" href="service.html">Services</a>
+                    <a class="navbar-link service-link " href="service.html ">Services</a>
                 </li>
                 <li>
-                    <a class="navbar-link portfolio-link" href="portfolio.html">Portfolio</a>
+                    <a class="navbar-link portfolio-link " href="portfolio.html ">Portfolio</a>
                 </li>
                 <li>
-                    <a class="navbar-link" href="contact.html" target="_blank">Contact</a>
+                    <a class="navbar-link " href="contact.html " target="_blank ">Contact</a>
                 </li>
+
             </ul>
         </nav>
 
-        <div class="mobile-navbar-btn">
-            <ion-icon class="mobile-nav-icon"
-                      name="menu-outline"
-                      class="mobile-nav-icon"></ion-icon>
+        <div class="mobile-navbar-btn ">
+            <ion-icon class="mobile-nav-icon " name="menu-outline " class="mobile-nav-icon "></ion-icon>
 
-            <ion-icon class="mobile-nav-icon"
-                      name="close-outline"
-                      class="mobile-nav-icon"></ion-icon>
+            <ion-icon class="mobile-nav-icon " name="close-outline " class="mobile-nav-icon "></ion-icon>
         </div>
     </header>
 
-    <!-- ========================================
-          Our Service Section Start
+
+    <!-- ======================================== 
+          Our Service Section Start  
     ========================================  -->
     <section class="section-services section services ">
         <div class="container ">
-            <h2 class="common-heading ">Services Offers</h2>
+            <h2 class="common-heading h_dark">Services Offers</h2>
             <p>
-                I'm always open to any graphic & Development project you need. I combine art, graphics and creative skills to develop ideas and creeate arts and experiences people love to see and use. I'm working with many different styles and keeping with modern design
+                I'm always open to any graphic & Development project you need. I combine art, graphics and creative
+                skills to develop ideas and creeate arts and experiences people love to see and use. I'm working with
+                many different styles and keeping with modern design
                 trends.
             </p>
         </div>
@@ -74,8 +128,7 @@
                 </div>
 
                 <h3>Web Development</h3>
-                <p>
-                    We help you to create all types of web-based software and ensure great experience for web users.
+                <p>We help you to create all types of web-based software and ensure great experience for web users.
 
                 </p>
                 <a href="# " class="read-more "><span>Read More</span> <i class="bi bi-arrow-right "></i></a>
@@ -85,7 +138,8 @@
                     <i class="bi bi-camera-fill "></i>
                 </div>
                 <h3>Photography</h3>
-                <p>Our photography services include: Full-day or half-day photo shoots with all necessary equipment. </p>
+                <p>Our photography services include: Full-day or half-day photo shoots with all necessary equipment.
+                </p>
                 <a href="# " class="read-more "><span>Read More</span> <i class="bi bi-arrow-right "></i></a>
             </div>
             <div class="service-box fancy-hover red ">
@@ -93,7 +147,8 @@
                     <i class="bi bi-symmetry-vertical "></i>
                 </div>
                 <h3>Software Development</h3>
-                <p>Our Software development services are aimed at designing, engineering, deploying, supporting, and evolving various software types.</p>
+                <p>Our Software development services are aimed at designing, engineering, deploying, supporting, and
+                    evolving various software types.</p>
                 <a href="# " class="read-more "><span>Read More</span> <i class="bi bi-arrow-right "></i></a>
             </div>
             <div class="service-box fancy-hover purple ">
@@ -101,7 +156,8 @@
                     <i class="bi bi-android2 "></i>
                 </div>
                 <h3>Apps interface</h3>
-                <p>This is the best mobile app interface designer among all the UI designers. We create colorful graphics that are filled with beautiful animations.</p>
+                <p>This is the best mobile app interface designer among all the UI designers. We create colorful
+                    graphics that are filled with beautiful animations.</p>
                 <a href="# " class="read-more "><span>Read More</span> <i class="bi bi-arrow-right "></i></a>
             </div>
             <div class="service-box fancy-hover pink ">
@@ -109,7 +165,8 @@
                     <i class="bi bi-flower1 "></i>
                 </div>
                 <h3>Graphic Design</h3>
-                <p>Our creative graphic designing services includes brochures, banners, flyers, business cards, e-books, and many more.</p>
+                <p>Our creative graphic designing services includes brochures, banners, flyers, business cards, e-books,
+                    and many more.</p>
                 <a href="# " class="read-more "><span>Read More</span> <i class="bi bi-arrow-right "></i></a>
             </div>
         </div>
@@ -125,10 +182,13 @@
                 <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
             </defs>
             <g class="parallax">
-                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(114,137,218,0.7)"></use>
-                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(114,137,218,0.5)"></use>
-                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(114,137,218,0.3)"></use>
-                <use xlink:href="#gentle-wave" x="48" y="7" fill="#7289da"></use>
+                <use class="svg_fill" xlink:href="#gentle-wave" x="48" y="0" style="opacity: 0.7;"
+                    fill="#0a419b"></use>
+                <use class="svg_fill" xlink:href="#gentle-wave" x="48" y="3" style="opacity: 0.5;"
+                    fill="#0a419b"></use>
+                <use class="svg_fill" xlink:href="#gentle-wave" x="48" y="5" style="opacity: 0.3;"
+                    fill="#0a419b"></use>
+                <use class="svg_fill" xlink:href="#gentle-wave" x="48" y="7" style="opacity: 1;" fill="#0a419b"></use>
             </g>
         </svg>
     </div>
@@ -216,14 +276,14 @@
 
                     <div>
                         <p>
-                            <span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+91123456789"> +92 3128725200</a>
+                            <span><ion-icon name="call-outline"></ion-icon></span> <a style="color: white;" href="tel:+91123456789"> +92 3128725200</a>
                         </p>
                     </div>
 
                     <div>
                         <p>
-                            <span><ion-icon name="mail-outline"></ion-icon></span> <a href="hafizalihassan22222@gmail.com">
-                                hafizalihassan22222@gmail.com
+                            <span><ion-icon name="mail-outline"></ion-icon></span> <a style="color: white;" href="hitechcoder.6at@gmail.com">
+                                info@Alihassan.com
                             </a>
                         </p>
                     </div>
@@ -258,20 +318,42 @@
 
     </footer>
 
-    <!-- ========================================
-          Our JavaScript Section
+    <!-- ======================================== 
+          Our JavaScript Section   
     ========================================  -->
+    <!-- <script src="aos/aos.js"></script> -->
+    <script src="bootstrap.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
     <script src="index.js"></script>
 </body>
 
 </html>
-<script>
+<script type="text/javascript">
+    'use strict';
+
+    var RbMenu = function (elmId) {
+        var elm = document.querySelector(elmId);
+        console.log(elm);
+        var target = document.querySelector(elm.getAttribute('rb-target'));
+
+        elm.addEventListener('click', function (evt) {
+            if (target.classList.contains('active') === true) {
+                target.classList.remove('active');
+            } else {
+                target.classList.add('active');
+            }
+        });
+    }
+
+    RbMenu('#rb_menu_toggle');
+
+
+
     // <![CDATA[  <-- For  footer wave SVG support
     if ('WebSocket' in window) {
-        (function() {
+        (function () {
             function refreshCSS() {
                 var sheets = [].slice.call(document.getElementsByTagName("link"));
                 var head = document.getElementsByTagName("head")[0];
@@ -290,7 +372,7 @@
             var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
             var address = protocol + window.location.host + window.location.pathname + '/ws';
             var socket = new WebSocket(address);
-            socket.onmessage = function(msg) {
+            socket.onmessage = function (msg) {
                 if (msg.data == 'reload') window.location.reload();
                 else if (msg.data == 'refreshcss') refreshCSS();
             };
@@ -303,4 +385,49 @@
         console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
     }
     // ]]>
+</script>
+<script>
+    // // ---------------------All Dynamic color change ------------------------------- //
+    const h_dark = document.querySelectorAll('.h_dark');
+    const bg_dark = document.querySelectorAll('.bg_dark');
+    const bg_light = document.querySelectorAll('.bg_light');
+    const h_light = document.querySelectorAll('.h_light');
+    const svg_fill = document.querySelectorAll('.svg_fill');
+    const colorPicker1 = document.getElementById('pick_1');
+    const colorPicker2 = document.getElementById('pick_2');
+
+    // function setGradientColor() {
+    //     const color1 = colorPicker1.value;
+    //     const color2 = colorPicker2.value;
+    //     myElements.forEach(element => {
+    //         element.style.background = "linear-gradient(50deg," + color1 + ", " + color2 + ")";;
+    //     });        
+    // }
+    // colorPicker1.addEventListener('input', setGradientColor);
+    // colorPicker2.addEventListener('input', setGradientColor);
+
+
+        const root = document.documentElement;
+
+        colorPicker1.addEventListener("input", function () {
+            root.style.setProperty('--helper', colorPicker1.value);
+            h_dark.forEach(element => {
+            element.style.color = colorPicker1.value;
+        });
+        svg_fill.forEach(element => {
+            element.style.fill = colorPicker1.value;
+            bg_dark.forEach(element => {
+                element.style.background = colorPicker1.value;
+            });
+        });
+        });
+        colorPicker2.addEventListener("input", function () {
+            root.style.setProperty('--helpergradiant', colorPicker2.value);
+            h_light.forEach(element => {
+            element.style.color = colorPicker2.value;
+            bg_light.forEach(element => {
+                element.style.background = colorPicker2.value;
+            });
+        });
+        });
 </script>
