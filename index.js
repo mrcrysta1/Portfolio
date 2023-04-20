@@ -1,3 +1,8 @@
+
+// this code use for pageloader
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+});
 // ========================================
 // Responsive navigation
 // ========================================
